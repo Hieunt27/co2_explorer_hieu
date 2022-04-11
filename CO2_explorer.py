@@ -274,8 +274,9 @@ def update_scatter(xvar, d = indicators, df = df_2018):
     return fig
 
 if __name__ == '__main__':
-    app.title = 'CO2 explorer'
     app.run_server(debug=True)
+    
+app.title = 'CO2 explorer'
 
 #app.run_server()
 
